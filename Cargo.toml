@@ -1,0 +1,9 @@
+[package]
+name = "efi-types"
+version = "0.1.0"
+authors = ["jzr"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.26.3"
