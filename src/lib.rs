@@ -26,5 +26,5 @@ mod ctypes {
 type EFI_INSTALL_MULTIPLE_PROTOCOL_INTERFACES = usize;
 type EFI_UNINSTALL_MULTIPLE_PROTOCOL_INTERFACES = usize;
 
-include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+include!("bindings.rs");
 
